@@ -1,0 +1,11 @@
+Model Information:
+* title:	Autoportrait de l’artiste au fond rose.
+* source:	https://sketchfab.com/3d-models/autoportrait-de-lartiste-au-fond-rose-33aca93d4bec422695fa638cd43058a6
+* author:	AnDeNan (https://sketchfab.com/saladeen)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Autoportrait de l’artiste au fond rose." (https://sketchfab.com/3d-models/autoportrait-de-lartiste-au-fond-rose-33aca93d4bec422695fa638cd43058a6) by AnDeNan (https://sketchfab.com/saladeen) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

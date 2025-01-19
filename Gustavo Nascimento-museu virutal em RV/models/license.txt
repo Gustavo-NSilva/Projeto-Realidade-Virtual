@@ -1,0 +1,11 @@
+Model Information:
+* title:	Moses By Michelangelo
+* source:	https://sketchfab.com/3d-models/moses-by-michelangelo-4e82f1a4501f4ccd8f3d50d040548771
+* author:	jerryfisher (https://sketchfab.com/jerryfisher)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Moses By Michelangelo" (https://sketchfab.com/3d-models/moses-by-michelangelo-4e82f1a4501f4ccd8f3d50d040548771) by jerryfisher (https://sketchfab.com/jerryfisher) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

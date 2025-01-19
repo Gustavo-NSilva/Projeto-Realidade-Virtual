@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kanagawa Oki Nami Ura (神奈川沖浪裏)
+* source:	https://sketchfab.com/3d-models/kanagawa-oki-nami-ura-a7dcccf83b66497ea205d729cc409e9d
+* author:	dimoni (https://sketchfab.com/dimoni)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kanagawa Oki Nami Ura (神奈川沖浪裏)" (https://sketchfab.com/3d-models/kanagawa-oki-nami-ura-a7dcccf83b66497ea205d729cc409e9d) by dimoni (https://sketchfab.com/dimoni) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

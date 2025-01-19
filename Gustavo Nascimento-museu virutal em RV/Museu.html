@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Museu virtual</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/aframe-master.1.0.4.min.js"></script>
+	<script src="js/website_links.js"></script>
+</head>
+
+<body>
+
+<a-scene cursor="rayOrigin: mouse">
+
+	<a-assets timeout="10000">
+    <a-asset-item id="factory" src="models/hall.gltf"/>
+	<a-asset-item id="scene" src="models/scene.gltf"/>
+	<a-asset-item id="venus" src="Venus/venus.gltf"/>
+	<a-asset-item id="obra" src="Obra/obra.gltf"></a-asset-item>
+	<a-asset-item id="room" src="models/museum_test.gltf"/>
+	<a-asset-item id="moses_augustana" src="models/moses_augustana.gltf"/>
+	<a-asset-item id="gato" src="gato/scene.gltf"></a-asset-item>
+	<a-asset-item id="mesa_gato" src="mesa_gato/scene.gltf"></a-asset-item>
+	<img id="sky" src="images/nuvem.jpg" />
+	<img id="sky" src="images/moses.jpg"/>
+
+	</a-assets>
+	<a-entity id="cursor" cursor="fuse: true; fuseTimeout: 1500" raycaster="objects: .clickable"></a-entity>
+
+	        <a-asset-item
+                id="cesar"
+                src="cesar_-_louvre_museum/scene.gltf"
+              ></a-asset-item>
+
+			  <a-asset-item
+			  id="Quadro"
+			  src="quadro/Quadro.gltf"
+			></a-asset-item>
+
+			 <a-asset-item
+			  id="Nit"
+			  src="de_sterrennacht__nit_estelada__the_starry_night/scene.gltf"
+			></a-asset-item>
+
+			<a-asset-item
+			  id="rose"
+			  src="autoportrait_de_lartiste_au_fond_rose/scene.gltf"
+			></a-asset-item>
+
+			<a-asset-item
+			  id="oki"
+			  src="kanagawa_oki_nami_ura/scene.gltf"
+			></a-asset-item>
+
+
+			<a-asset-item
+			id="Scream"
+			src="the_scream/Scream.gltf"
+		  ></a-asset-item>
+
+			<a-asset-item
+			id="frame"
+			src="picture_frame/frame.gltf"
+		  ></a-asset-item>
+
+			<a-asset-item
+			id="Venus"
+			src="Venus/venus.gltf"
+		  ></a-asset-item>
+
+		  <a-asset-item
+			id="obra"
+			src="Obra/obra.gltf"
+		  ></a-asset-item>
+
+
+		  <a-asset-item
+			id="gato"
+			src="gato/scene.gltf"
+		  ></a-asset-item>
+
+		  <a-asset-item
+			id="mesa_gato"
+			src="mesa_gato/scene.gltf"
+			></a-asset-item>
+
+	<a-text  value="Bem vindo ao Museu Virutal" position="2 4.4 -7.1" width="15" align="center"></a-text>
+		
+  <a-entity id="environment">
+    <a-entity id="glbtest" gltf-model="#factory" position="0 0.01 0" rotation="0 0 0" scale="1 1 1" static-body></a-entity>
+    </a-entity>
+  </a-entity>
+
+          <a-entity
+              gltf-model="#cesar"
+			  class="clickable"
+			  artwork-info="cesar"
+              position="-2 1.0 -6.1"
+              scale="2 2 2"
+
+            ></a-entity>
+
+
+			<a-entity
+              gltf-model="#Quadro"
+			  class="clickable"
+			  artwork-info="Quadro"
+              position="6 1.5 -7.1"
+			  rotation="0 -90 0"
+              scale="2 2 2"
+              modify-materials
+            ></a-entity>
+
+			<a-entity
+              gltf-model="#Nit"
+			  class="clickable"
+			  artwork-info="Nit"
+              position="8.2 1.5 -2.3"
+			  rotation="0 -90 0"
+              scale="2 2 2"
+              modify-materials
+            ></a-entity>
+
+			<a-entity
+              gltf-model="#rose"
+              position="8.2 1.5 1"
+			  rotation="0 -90 0"
+              scale="2 2 2"
+              modify-materials
+            ></a-entity>
+
+			<a-entity
+              gltf-model="#oki"
+              position="8.2 1.5 -5.3"
+			  rotation="0 -90 0"
+              scale="2 2 2"
+              modify-materials
+            ></a-entity>
+
+
+			<a-entity
+              gltf-model="#Scream"
+			  class="clickable"
+			  artwork-info="Scream"
+              position="2 1.3 -7.1"
+			  rotation="0 -7 0"
+              scale="3 3 3"
+              modify-materials
+            ></a-entity>
+
+			<a-entity
+			gltf-model="#venus"
+			class="clickable"
+			position="-2 -0.05 -0.556"
+			scale="0.0012 0.0012 0.0012"
+			rotation="0 -19.9 0"
+		  ></a-entity>
+
+		  <a-entity 
+		  gltf-model="#obra" 
+		  class="clickable"
+		  scale="0.2 0.2 0.2" 
+		  position="4 0.6 -0.556" 
+		  rotation="0 -19.9 0"
+		  ></a-entity>
+
+
+		  <a-entity
+        gltf-model="#gato"
+		class="clickable"
+        position="0.22 1.460 3.560"
+        scale="0.7 0.7 0.7"
+        rotation="0 180 0"
+      ></a-entity>
+
+	  <a-entity
+        gltf-model="#mesa_gato"
+		class="clickable"
+        position="0.21 0.440 3.440"
+        scale="0.04 0.04 0.04"
+        rotation="0 180 0"
+      ></a-entity>
+
+		
+	<a-entity id="sculptures" position = "0 0 0" rotation="0 0 0">
+		<a-entity gltf-model="#moses_augustana" position="1.0 0 -1.0" scale="0.1 0.1 0.1"></a-entity>
+	</a-entity>
+
+	<a-sky 
+		rotation = "0 0 0"
+		color = "#FFFFFF"
+		material = "src: #sky">
+	</a-sky>
+	
+	<a-plane
+		width="100" height="100"
+		position=" 0.00 0.00 0.00" 
+		rotation="-90 0 0" 
+		color="#888888" 
+		material="src: #grid; repeat:100 100; transparent: true; opacity: 0.75">
+	</a-plane>
+	<a-text id="artworkInfo" position="2 2 -5" align="left" width="6" value=""></a-text>
+</a-scene>
+
+<script>
+	document.querySelector("#cursor").addEventListener("click", function (e) {
+			var intersection = e.detail.intersectedEl;
+			if (intersection && intersection.classList.contains("clickable")) {
+				var artworkInfo = intersection.getAttribute("artwork-info");
+				if (artworkInfo) {
+					document.getElementById("artworkInfo").setAttribute("value", "Artista: " + artworkInfo.artist + "\nTítulo: " + artworkInfo.title + "\nMédium: " + artworkInfo.medium + "\nMuseu: " + artworkInfo.museum);
+				}
+			}
+		});
+
+
+
+
+function getInfo(website) {
+
+	var data = [];
+	$.ajax({ url: website, success: function(text) { 
+
+		var artist = $(text).find('#infocel').children()[0].children[0].innerText
+		var lifespan = $(text).find('#infocel').children()[0].innerText
+		var title = $(text).find('#infocel').children()[1].innerText
+		var medium = $(text).find('#infocel').children()[2].innerText
+		var completed = $(text).find('#infocel').children()[2].innerText
+		var museum = $(text).find('.museumlink').text()
+		var bible_link = $(text).find('#infocel').children()[4].innerText
+		var tags = $(text).find('.tags').text()
+		try {
+			var summary = $(text).find('#illudesccontainer').children()[0].innerText + "\n\n" +
+										$(text).find('#illudesccontainer').children()[1].innerText
+		} catch {
+			var summary = 'fix this'
+		}
+	  
+		var imghtml = $(text).find('#bigPic').children().text()
+		var imgsrc_stub = $(imghtml).attr('src')
+		var imgsrc = 'https://www.artbible.info/images/'+imgsrc_stub.substring(7)
+		var imgw = $(imghtml).attr('width')
+		var imgh = $(imghtml).attr('height')
+
+		data = [imgsrc, artist, lifespan, title, medium, completed, museum, summary, bible_link, tags, imgw, imgh]
+		},
+		async:false
+	});	
+	return data;
+}
+
+
+
+
+function addImageFrame(data, i, pos, rot) {
+	const artwork_holder = document.getElementById("artworks").children[i];
+	
+	var imgsrc     = data[0]
+	var artist     = data[1] 
+	var lifespan   = data[2]
+	var title      = data[3]
+	var medium     = data[4]
+	var completed  = data[5]
+	var museum     = data[6]
+	var summary    = data[7]
+	var bible_link = data[8]
+	var tags       = data[9]
+	var imgw       = data[10]
+	var imgh			 = data[11]
+
+	var imgwidth = imgw/imgh 
+	var imgheight = 1
+	var imghtml = '<a-image src="'+imgsrc+'" width="'+imgwidth+'" height="'+imgheight+'"></a-image>'
+	//
+	var frame_scale = '"'+(imgwidth+0.1)+' '+(imgheight+0.1)+' 0.025"'
+	var img_frame = '<a-box id="box" position="0 0 -0.025" rotation="0 0 0" scale='+frame_scale+' color="#D4AF37"></a-box>'
+
+	// 
+	var blurb_scale = '"'+0.2+' '+0.2+' 0.025"'
+	var blurb_pos = '"'+(imgwidth/2+0.2)+' 0 -0.025"'
+	var blurb_frame = '<a-box id="box" color="#000000"></a-box>'
+	var texthtml = '<a-text value="'+
+					title+'\n'+
+					artist+'\n'+
+					lifespan+'\n'+
+					medium+'\n'+
+					museum+'\n'+
+					bible_link+'\n'+
+					summary+
+				'" position="-.45 0 0.5" width="'+(1)+'" align="left"></a-text>'	
+	var blurb_html = '<a-entity position='+blurb_pos+' rotation="0 0 0" scale='+blurb_scale+'>' +
+											blurb_frame +
+											texthtml
+									 '</a-entity>'
+
+
+	var pos = '"'+pos[0]+' 0 '+pos[1]+'"'
+	var rot = '"0 0 0"'
+	var scale = '"2 2 2"'
+ 	var elt = '<a-entity '+
+							' position='+pos+
+							' rotation='+rot+
+							' scale='+scale+
+							'>'+img_frame+imghtml+blurb_html
+							'</a-entity>'
+
+	
+	artwork_holder.insertAdjacentHTML('beforeend', elt);
+
+}
+
+
+
+function add_artwork(xbook_links, start_idx, num_pieces) {
+	
+	for (i=0;i<(num_pieces);i++) {
+		data = getInfo('https://www.artbible.info'+xbook_links[start_idx+i])
+		addImageFrame(data, i, [0,0])
+	}
+}
+
+function remove_artwork() {
+	const artworks = document.getElementById("artworks");
+	for (i=0;i<artworks.children.length;i++) {
+		try {
+			artwork_hold = artworks.children[i]
+			artwork_hold.removeChild(artwork_hold.children[0])
+		} catch (err) {
+			console.log('Nothing to remove')
+		}
+	}
+}
+
+function change_room_name(name) {
+	const room_name = document.getElementById("room_name");
+	room_name.setAttribute("value", name)
+}
+
+
+
+
+var cur_book_num = 0
+var cur_idx_in_book = 0
+var num_pieces_per_room = 6
+
+add_artwork(book_links[cur_book_num], cur_idx_in_book, num_pieces_per_room)
+change_room_name(book_names[cur_book_num])
+
+function go_to_next_book() {
+	remove_artwork()
+	cur_book_num++
+	cur_idx_in_book = 0
+	add_artwork(book_links[cur_book_num], cur_idx_in_book, num_pieces_per_room)
+	change_room_name(book_names[cur_book_num])
+}
+
+function go_further_in_book() {
+	remove_artwork()
+	cur_idx_in_book += num_pieces_per_room
+	add_artwork(book_links[cur_book_num], cur_idx_in_book, num_pieces_per_room)
+}
+
+document.onkeypress = function (e) {
+    e = e || window.event;
+   
+		if (e.keyCode==110) { 
+			go_to_next_book()
+		} 
+
+		
+		if (e.keyCode==109) { 
+			go_further_in_book()
+		} 
+
+		if (e.keyCode==113) { 
+			remove_artwork()
+		}
+};
+
+</script>
+
+</body>
+
+</html>
